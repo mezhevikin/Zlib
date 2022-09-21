@@ -6,7 +6,7 @@
 import Zlib
 
 // Decompressed data
-let decompressed = data.decomressed
+let decompressed = data.decompressed
 
 // Decompressed string
 let string = data.decompressedString
