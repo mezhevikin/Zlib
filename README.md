@@ -1,15 +1,15 @@
 # Zlib
 
-🗜 A small Swift extension to decompress Zlib data.
+🗜 A tiny Swift extension to decompress Zlib data.
 
 ```swift
 import Zlib
 
 // Decompressed data
-let decompressed = data.decompressed
+print(data.decompressed)
 
 // Decompressed string
-let string = data.decompressedString
+print(data.decompressedString)
 ```
 
 ### Swift Package Manager
