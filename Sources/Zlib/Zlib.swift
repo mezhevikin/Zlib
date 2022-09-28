@@ -24,7 +24,7 @@ public extension Data {
         return result
     }
     
-    var decompressedString: String {
-        String(data: decompressed, encoding: .utf8)!
+    var string: String {
+        String(data: self, encoding: .utf8)!
     }
 }

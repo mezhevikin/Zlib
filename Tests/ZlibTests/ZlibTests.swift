@@ -7,7 +7,7 @@ final class ZlibTests: XCTestCase {
         let data = Data(base64Encoded: compressed)
         XCTAssertNotNil(data)
         XCTAssertEqual(
-            data?.decompressedString,
+            data?.decompressed.string,
             "Hello world!"
         )
     }

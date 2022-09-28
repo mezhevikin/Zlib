@@ -9,7 +9,7 @@ import Zlib
 print(data.decompressed)
 
 // Decompressed string
-print(data.decompressedString)
+print(data.decompressed.string)
 ```
 
 ### Swift Package Manager
